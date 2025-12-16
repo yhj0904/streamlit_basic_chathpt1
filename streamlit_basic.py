@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-# (0) 사이드바에서 api_key 입력하는 부분 
+# (0) 사이드바에서 api_key 입력하는 부분  
 with st.sidebar:
     openai_api_key = os.getenv('OPENAI_API_KEY') 
     # openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
